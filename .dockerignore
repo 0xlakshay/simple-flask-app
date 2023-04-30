@@ -1,0 +1,32 @@
+# https://github.com/GoogleCloudPlatform/getting-started-python/blob/main/optional-kubernetes-engine/.dockerignore
+# https://gist.github.com/KernelA/04b4d7691f28e264f72e76cfd724d448
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Markdown
+*.md
+
+# CI
+.codeclimate.yml
+.travis.yml
+.taskcluster.yml
+
+# Docker
+docker-compose.yml
+Dockerfile
+.docker
+.dockerignore
+
+# Byte-compiled / optimized / DLL files
+**/__pycache__/
+**/*.py[cod]
+
+# C extensions
+*.so
+
+# Virtual environment
+.venv/
+venv/
