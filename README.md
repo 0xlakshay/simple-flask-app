@@ -3,6 +3,15 @@
 ---
 
 ```sh
+docker-compose up -d
+docker-compose up -d --build
+
+docker-compose down
+```
+
+---
+
+```sh
 docker build -t flask-simple-app .
 ```
 
@@ -27,3 +36,6 @@ https://pythonspeed.com/articles/base-image-python-docker-images/
 
 Docker Best Practices for Python Developers | TestDriven.io
 https://testdriven.io/blog/docker-best-practices/#use-unprivileged-containers
+
+docker-compose up doesn't rebuild image although Dockerfile has changed · Issue #1487 · docker/compose
+https://github.com/docker/compose/issues/1487
