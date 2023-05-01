@@ -39,3 +39,32 @@ https://testdriven.io/blog/docker-best-practices/#use-unprivileged-containers
 
 docker-compose up doesn't rebuild image although Dockerfile has changed · Issue #1487 · docker/compose
 https://github.com/docker/compose/issues/1487
+
+> A bind mount is another type of mount, which lets you share a directory from the host’s filesystem into the container. When working on an application, you can use a bind mount to mount source code into the container. The container sees the changes you make to the code immediately, as soon as you save a file. This means that you can run processes in the container that watch for filesystem changes and respond to them.
+
+Use bind mounts | Docker Documentation
+https://docs.docker.com/get-started/06_bind_mounts/
+
+Bind mounts | Docker Documentation
+https://docs.docker.com/storage/bind-mounts/#use-a-bind-mount-with-compose
+
+Docker volumes vs. bind mounts - LogRocket Blog
+https://blog.logrocket.com/docker-volumes-vs-bind-mounts/
+
+---
+
+##### About Ruff
+
+charliermarsh/ruff: An extremely fast Python linter, written in Rust.
+https://github.com/charliermarsh/ruff
+
+Configuration - Ruff
+https://beta.ruff.rs/docs/configuration/#command-line-interface
+
+Ruff: one Python linter to rule them all
+https://blog.jerrycodes.com/ruff-the-python-linter/
+
+charliermarsh/ruff-vscode: A Visual Studio Code extension with support for the Ruff linter.
+https://github.com/charliermarsh/ruff-vscode
+
+---

@@ -30,6 +30,7 @@ EXPOSE 5000
 # CMD [ "gunicorn", "app:app", "--access-logfile gunicorn.log"]
 # CMD [ "gunicorn", "app:app", "--access-logfile -"]
 # CMD ["python", "-m", "gunicorn", "--bind=0.0.0.0:5000", "app:app"]
-CMD ["python", "-m", "gunicorn", "--bind=0.0.0.0:5000", "app:app", "--access-logfile=-"]
+# CMD ["python", "-m", "gunicorn", "--bind=0.0.0.0:5000", "app:app", "--access-logfile=-"]
+CMD ["python", "-m", "gunicorn", "--bind=0.0.0.0:5000", "app:app", "--access-logfile=-", "--reload"]
 # CMD ["python", "-m", "flask", "run", "--host=0.0.0.0"]
 
